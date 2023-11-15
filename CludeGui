@@ -31,26 +31,26 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-Frame.BorderColor3 = Color3.fromRGB(135, 206, 235)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(244, 41, 6)
 Frame.BorderSizePixel = 2
 Frame.Position = UDim2.new(0.0907643288, 0, 0.199724525, 0)
 Frame.Size = UDim2.new(0, 296, 0, 449)
 
 name.Name = "name"
 name.Parent = Frame
-name.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-name.BorderColor3 = Color3.fromRGB(135, 206, 235)
+name.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+name.BorderColor3 = Color3.fromRGB(244, 41, 6)
 name.Size = UDim2.new(0, 300, 0, 42)
 name.Font = Enum.Font.SourceSans
-name.Text = "Clude Gui Script"
-name.TextColor3 = Color3.fromRGB(0, 0, 0)
+name.Text = "c00lkidd2 script hub remake"
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
 name.TextSize = 17.000
 
 _666.Name = "666"
 _666.Parent = Frame
-_666.BackgroundColor3 = Color3.fromRGB(155, 15,, 155)
-_666.BorderColor3 = Color3.fromRGB(135, 206, 235)
+_666.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_666.BorderColor3 = Color3.fromRGB(241, 41, 6)
 _666.Position = UDim2.new(0, 0, 0.116666667, 0)
 _666.Size = UDim2.new(0, 86, 0, 65)
 _666.Font = Enum.Font.SourceSans
@@ -60,41 +60,41 @@ _666.TextSize = 20.000
 
 HardStyleSong.Name = "HardStyleSong"
 HardStyleSong.Parent = Frame
-HardStyleSong.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-HardStyleSong.BorderColor3 = Color3.fromRGB(135, 206, 235)
+HardStyleSong.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HardStyleSong.BorderColor3 = Color3.fromRGB(241, 41, 6)
 HardStyleSong.Position = UDim2.new(0.286666662, 0, 0.116666667, 0)
 HardStyleSong.Size = UDim2.new(0, 117, 0, 40)
 HardStyleSong.Font = Enum.Font.SourceSans
-HardStyleSong.Text = "LOUD SONG"
+HardStyleSong.Text = "HARDSTYLE SONG"
 HardStyleSong.TextColor3 = Color3.fromRGB(255, 255, 255)
 HardStyleSong.TextSize = 18.000
 
 Shedletskyify.Name = "Shedletskyify"
 Shedletskyify.Parent = Frame
-Shedletskyify.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-Shedletskyify.BorderColor3 = Color3.fromRG(135, 206, 235)
+Shedletskyify.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shedletskyify.BorderColor3 = Color3.fromRGB(241, 41, 6)
 Shedletskyify.Position = UDim2.new(0.286666662, 0, 0.227777779, 0)
 Shedletskyify.Size = UDim2.new(0, 97, 0, 50)
 Shedletskyify.Font = Enum.Font.SourceSans
-Shedletskyify.Text = "Vereus"
+Shedletskyify.Text = "Shedletskyify"
 Shedletskyify.TextColor3 = Color3.fromRGB(255, 255, 255)
 Shedletskyify.TextSize = 18.000
 
 Shedletskylaugh.Name = "Shedletsky laugh"
 Shedletskylaugh.Parent = Frame
-Shedletskylaugh.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-Shedletskylaugh.BorderColor3 = Color3.fromRGB(135, 206, 235)
+Shedletskylaugh.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shedletskylaugh.BorderColor3 = Color3.fromRGB(241, 41, 6)
 Shedletskylaugh.Position = UDim2.new(0, 0, 0.297222227, 0)
 Shedletskylaugh.Size = UDim2.new(0, 86, 0, 50)
 Shedletskylaugh.Font = Enum.Font.SourceSans
-Shedletskylaugh.Text = "Clude laugh"
+Shedletskylaugh.Text = "Shedletsky laugh"
 Shedletskylaugh.TextColor3 = Color3.fromRGB(255, 255, 255)
 Shedletskylaugh.TextSize = 15.000
 
 RainningMens.Name = "Rainning Mens"
 RainningMens.Parent = Frame
-RainningMens.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-RainningMens.BorderColor3 = Color3.fromRGB(135, 206, 235)
+RainningMens.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RainningMens.BorderColor3 = Color3.fromRGB(241, 41, 6)
 RainningMens.Position = UDim2.new(0.290011138, 0, 0.368699193, 0)
 RainningMens.Size = UDim2.new(0, 80, 0, 55)
 RainningMens.Font = Enum.Font.SourceSans
@@ -102,21 +102,21 @@ RainningMens.Text = "Rainning mens"
 RainningMens.TextColor3 = Color3.fromRGB(255, 255, 255)
 RainningMens.TextSize = 17.000
 
-c00lkidd2skybox.Name = "c00lkidd1 skybox"
+c00lkidd2skybox.Name = "c00lkidd2 skybox"
 c00lkidd2skybox.Parent = Frame
-c00lkidd2skybox.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-c00lkidd2skybox.BorderColor3 = Color3.fromRGB(135, 206, 235)
+c00lkidd2skybox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c00lkidd2skybox.BorderColor3 = Color3.fromRGB(241, 41, 6)
 c00lkidd2skybox.Position = UDim2.new(0.0199999996, 0, 0.424187005, 0)
 c00lkidd2skybox.Size = UDim2.new(0, 64, 0, 61)
 c00lkidd2skybox.Font = Enum.Font.SourceSans
-c00lkidd2skybox.Text = "Clude sky"
+c00lkidd2skybox.Text = "c00lkidd2 sky"
 c00lkidd2skybox.TextColor3 = Color3.fromRGB(255, 255, 255)
 c00lkidd2skybox.TextSize = 15.000
 
 c00lkidd2skybox_2.Name = "c00lkidd2 skybox"
 c00lkidd2skybox_2.Parent = Frame
-c00lkidd2skybox_2.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-c00lkidd2skybox_2.BorderColor3 = Color3.fromRGB(135, 206, 235)
+c00lkidd2skybox_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c00lkidd2skybox_2.BorderColor3 = Color3.fromRGB(241, 41, 6)
 c00lkidd2skybox_2.Position = UDim2.new(0.0233444814, 0, 0.586314321, 0)
 c00lkidd2skybox_2.Size = UDim2.new(0, 72, 0, 61)
 c00lkidd2skybox_2.Font = Enum.Font.SourceSans
@@ -126,19 +126,19 @@ c00lkidd2skybox_2.TextSize = 15.000
 
 DiscoFog.Name = "Disco Fog"
 DiscoFog.Parent = Frame
-DiscoFog.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-DiscoFog.BorderColor3 = Color3.fromRGB(135, 206, 235)
+DiscoFog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DiscoFog.BorderColor3 = Color3.fromRGB(241, 41, 6)
 DiscoFog.Position = UDim2.new(0.286666662, 0, 0.513888896, 0)
 DiscoFog.Size = UDim2.new(0, 89, 0, 80)
 DiscoFog.Font = Enum.Font.SourceSans
-DiscoFog.Text = "Disc0"
+DiscoFog.Text = "Disco Fog"
 DiscoFog.TextColor3 = Color3.fromRGB(255, 255, 255)
 DiscoFog.TextSize = 17.000
 
 Flood.Name = "Flood"
 Flood.Parent = Frame
-Flood.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-Flood.BorderColor3 = Color3.fromRGB(135, 206, 235)
+Flood.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Flood.BorderColor3 = Color3.fromRGB(241, 41, 6)
 Flood.Position = UDim2.new(0.676666677, 0, 0.144444451, 0)
 Flood.Size = UDim2.new(0, 97, 0, 86)
 Flood.Font = Enum.Font.SourceSans
@@ -148,19 +148,19 @@ Flood.TextSize = 21.000
 
 k00pkidddecalspam.Name = "k00pkidd decal spam"
 k00pkidddecalspam.Parent = Frame
-k00pkidddecalspam.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-k00pkidddecalspam.BorderColor3 = Color3.fromRGB(135, 206, 235)
+k00pkidddecalspam.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+k00pkidddecalspam.BorderColor3 = Color3.fromRGB(241, 41, 6)
 k00pkidddecalspam.Position = UDim2.new(0.610000014, 0, 0.3794038, 0)
 k00pkidddecalspam.Size = UDim2.new(0, 106, 0, 45)
 k00pkidddecalspam.Font = Enum.Font.SourceSans
-k00pkidddecalspam.Text = "Clude decalspam"
+k00pkidddecalspam.Text = "k00pkidd decalspam"
 k00pkidddecalspam.TextColor3 = Color3.fromRGB(255, 255, 255)
 k00pkidddecalspam.TextSize = 15.000
 
 CK2Logospam.Name = "CK2 Logo spam"
 CK2Logospam.Parent = Frame
-CK2Logospam.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-CK2Logospam.BorderColor3 = Color3.fromRGB(135, 206, 235)
+CK2Logospam.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CK2Logospam.BorderColor3 = Color3.fromRGB(241, 41, 6)
 CK2Logospam.Position = UDim2.new(0.626599789, 0, 0.511720896, 0)
 CK2Logospam.Size = UDim2.new(0, 95, 0, 48)
 CK2Logospam.Font = Enum.Font.SourceSans
@@ -170,30 +170,30 @@ CK2Logospam.TextSize = 17.000
 
 c00lkiddmessage.Name = "c00lkidd message"
 c00lkiddmessage.Parent = Frame
-c00lkiddmessage.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-c00lkiddmessage.BorderColor3 = Color3.fromRGB(135, 206, 235)
+c00lkiddmessage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddmessage.BorderColor3 = Color3.fromRGB(241, 41, 6)
 c00lkiddmessage.Position = UDim2.new(0.610000014, 0, 0.640176177, 0)
 c00lkiddmessage.Size = UDim2.new(0, 95, 0, 38)
 c00lkiddmessage.Font = Enum.Font.SourceSans
-c00lkiddmessage.Text = "Clude message"
+c00lkiddmessage.Text = "c00lkidd message"
 c00lkiddmessage.TextColor3 = Color3.fromRGB(255, 255, 255)
 c00lkiddmessage.TextSize = 15.000
 
 Hint.Name = "Hint"
 Hint.Parent = Frame
-Hint.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-Hint.BorderColor3 = Color3.fromRGB(135, 206, 235)
+Hint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hint.BorderColor3 = Color3.fromRGB(241, 41, 6)
 Hint.Position = UDim2.new(0.293264806, 0, 0.695035696, 0)
 Hint.Size = UDim2.new(0, 78, 0, 30)
 Hint.Font = Enum.Font.SourceSans
-Hint.Text = "hint message"
+Hint.Text = "Hint"
 Hint.TextColor3 = Color3.fromRGB(255, 255, 255)
 Hint.TextSize = 15.000
 
 IlluminatiParticels.Name = "Illuminati Particels"
 IlluminatiParticels.Parent = Frame
-IlluminatiParticels.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-IlluminatiParticels.BorderColor3 = Color3.fromRGB(135, 206, 235)
+IlluminatiParticels.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+IlluminatiParticels.BorderColor3 = Color3.fromRGB(241, 41, 6)
 IlluminatiParticels.Position = UDim2.new(-0.00163342431, 0, 0.7782951, 0)
 IlluminatiParticels.Size = UDim2.new(0, 96, 0, 40)
 IlluminatiParticels.Font = Enum.Font.SourceSans
@@ -203,19 +203,19 @@ IlluminatiParticels.TextSize = 15.000
 
 k00pkiddParticels.Name = "k00pkidd Particels"
 k00pkiddParticels.Parent = Frame
-k00pkiddParticels.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-k00pkiddParticels.BorderColor3 = Color3.fromRGB(135, 206, 235)
+k00pkiddParticels.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+k00pkiddParticels.BorderColor3 = Color3.fromRGB(241, 41, 6)
 k00pkiddParticels.Position = UDim2.new(0.346639574, 0, 0.780567825, 0)
 k00pkiddParticels.Size = UDim2.new(0, 96, 0, 40)
 k00pkiddParticels.Font = Enum.Font.SourceSans
-k00pkiddParticels.Text = "Clude particles"
+k00pkiddParticels.Text = "k00pkidd Particels"
 k00pkiddParticels.TextColor3 = Color3.fromRGB(255, 255, 255)
 k00pkiddParticels.TextSize = 15.000
 
 c00lkiddParticels.Name = "c00lkidd Particels"
 c00lkiddParticels.Parent = Frame
-c00lkiddParticels.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-c00lkiddParticels.BorderColor3 = Color3.fromRGB(135, 206, 235)
+c00lkiddParticels.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddParticels.BorderColor3 = Color3.fromRGB(241, 41, 6)
 c00lkiddParticels.Position = UDim2.new(0.678017199, 0, 0.733228624, 0)
 c00lkiddParticels.Size = UDim2.new(0, 86, 0, 49)
 c00lkiddParticels.Font = Enum.Font.SourceSans
@@ -225,8 +225,8 @@ c00lkiddParticels.TextSize = 15.000
 
 GrabKnifeV2.Name = "Grab Knife V2"
 GrabKnifeV2.Parent = Frame
-GrabKnifeV2.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-GrabKnifeV2.BorderColor3 = Color3.fromRGB(135, 206, 235)
+GrabKnifeV2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GrabKnifeV2.BorderColor3 = Color3.fromRGB(241, 41, 6)
 GrabKnifeV2.Position = UDim2.new(0.0602697432, 0, 0.869592369, 0)
 GrabKnifeV2.Size = UDim2.new(0, 184, 0, 45)
 GrabKnifeV2.Font = Enum.Font.SourceSans
@@ -236,8 +236,8 @@ GrabKnifeV2.TextSize = 15.000
 
 RektGui.Name = "Rekt Gui"
 RektGui.Parent = Frame
-RektGui.BackgroundColor3 = Color3.fromRGB(155, 155, 155)
-RektGui.BorderColor3 = Color3.fromRGB(135, 206, 235)
+RektGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RektGui.BorderColor3 = Color3.fromRGB(241, 41, 6)
 RektGui.Position = UDim2.new(0.722431898, 0, 0.840639114, 0)
 RektGui.Size = UDim2.new(0, 68, 0, 58)
 RektGui.Font = Enum.Font.SourceSans
@@ -280,14 +280,14 @@ local function UJYA_fake_script() -- _666.LocalScript
 					s.Color=BrickColor.new'Really red';
 					a=Instance.new('PointLight',v);
 					a.Color=Color3.new(1,0,0);
-					a.Range=14;
-					a.Brightness=10;
+					a.Range=15;
+					a.Brightness=5;
 					f=Instance.new('Fire',v);
 					f.Size=11;
 					f.Heat=12;
 				end;
-				game.Lighting.TimeOfDay=4;
-				game.Lighting.Brightness=5;
+				game.Lighting.TimeOfDay=0;
+				game.Lighting.Brightness=0;
 				game.Lighting.ShadowColor=Color3.new(0,0,0);
 				game.Lighting.Ambient=Color3.new(1,0,0);
 				game.Lighting.FogEnd=200;
@@ -371,7 +371,7 @@ local function QIWDYZW_fake_script() -- Shedletskyify.LocalScript
 	
 		for i,v in pairs(b) do
 	
-			a["Skybox"..v]="rbxassetid://78969295 "
+			a["Skybox"..v]="rbxassetid://172423468 "
 	
 		end
 	
@@ -408,7 +408,7 @@ local function QIWDYZW_fake_script() -- Shedletskyify.LocalScript
 	
 		for i,v in pairs(game.Players:GetChildren()) do
 			isis = Instance.new("Message",workspace)
-			isis.Text = "OH FUCK, THE RAP IS STARTING"
+			isis.Text = "OH FUCK, SHEDLETSKY'S RAP IS STARTING!"
 			wait(1)
 			isis:Destroy()
 			bomb = Instance.new("Explosion")
@@ -421,8 +421,43 @@ local function QIWDYZW_fake_script() -- Shedletskyify.LocalScript
 	
 		s = Instance.new("Sound")
 	
-		s.Name = "Music" edit these settings.
-	 
+		s.Name = "Music"
+	
+		s.SoundId = "http://www.roblox.com/asset/?id=1839527331" --Put the id into there.
+	
+		s.Looped = true
+	
+		s.Pitch = 1 --You can edit these settings.
+	
+		s.Volume = 2000 --You can edit these settings.
+	
+		s.archivable = false
+	
+	
+	
+		s.Parent = game.Workspace
+	
+	
+	
+		wait(1
+		)
+	
+	
+		s:play()
+	
+	
+	
+		for i,v in pairs(game.Players:GetChildren()) do
+			isis = Instance.new("Message",workspace)
+			isis.Text = "OH FUCK, SHEDLETSKY'S RAP IS STARTING!"
+			wait(1)
+			isis:Destroy()
+			bomb = Instance.new("Explosion")
+			bomb.Parent = v.Character.Torso
+			bomb.Position = v.Character.Torso.Position
+			bomb.BlastPressure = 1000
+			bomb.BlastRadius = 1000
+		end
 	end)
 end
 coroutine.wrap(QIWDYZW_fake_script)()
@@ -430,8 +465,21 @@ local function KMPXD_fake_script() -- Shedletskylaugh.LocalScript
 	local script = Instance.new('LocalScript', Shedletskylaugh)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		
-loadstring(game:HttpGet("https://scriptblox.com/raw/Client-Replication-Xester-5452"))()
+		script.Parent.MouseButton1Down:Connect(function()
+			local s = Instance.new("Sound")
+	
+			s.Name = "Sound"
+			s.SoundId = "http://www.roblox.com/asset/?id=130759239"
+			s.Volume = 100
+			s.Looped = true
+			s.archivable = false
+	
+			s.Parent = game.Workspace
+	
+			wait(3)
+	
+			s:play()
+		end)
 	end)
 end
 coroutine.wrap(KMPXD_fake_script)()
@@ -444,7 +492,7 @@ local function IUBCDON_fake_script() -- RainningMens.LocalScript
 		sky = coroutine.create(function()
 			while wait(0.3) do
 				s = Instance.new("Sky",game.Lighting)
-				s.SkyboxBk,s.SkyboxDn,s.SkyboxFt,s.SkyboxLf,s.SkyboxRt,s.SkyboxUp = "rbxassetid://10590477450","rbxassetid://10590477450","rbxassetid://10590477450","rbxassetid://10590477450","rbxassetid://10590477450","rbxassetid://10590477450"
+				s.SkyboxBk,s.SkyboxDn,s.SkyboxFt,s.SkyboxLf,s.SkyboxRt,s.SkyboxUp = "rbxassetid://201208408","rbxassetid://201208408","rbxassetid://201208408","rbxassetid://201208408","rbxassetid://201208408","rbxassetid://201208408"
 				s.CelestialBodiesShown = false
 			end
 		end)
@@ -471,11 +519,11 @@ local function IUBCDON_fake_script() -- RainningMens.LocalScript
 		sound = coroutine.create(function()
 			a = Instance.new("Sound",workspace)
 			a.SoundId = "rbxassetid://141509625"
-			a.Name = "oOoo"
+			a.Name = "RAINING MEN"
 			a.Volume = 58359
 			a.Looped = true
 			a:Play()
-			while wait(0.1) do
+			while wait(0.2) do
 				rainin = workspace:FindFirstChild("RAINING MEN")
 				if not rainin then
 					a = Instance.new("Sound",workspace)
@@ -535,14 +583,14 @@ local function YJNHSS_fake_script() -- c00lkidd2skybox.LocalScript
 	local script = Instance.new('LocalScript', c00lkidd2skybox)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		imageOne = "http://www.roblox.com/asset/?id=15138828714"
-		imageTwo = "http://www.roblox.com/asset/?id=15138828714"
-		imageThree = "http://www.roblox.com/asset/?id=15138828714"
-		imageFour = "http://www.roblox.com/asset/?id=15138828714"
-		imageFive = "http://www.roblox.com/asset/?id=15138828714"
-		imageSix = "http://www.roblox.com/asset/?id=15138828714"
-		imageSeven = "http://www.roblox.com/asset/?id=15138828714"
-		imageEight = "http://www.roblox.com/asset/?id=15138828714"
+		imageOne = "http://www.roblox.com/asset/?id=11873265575"
+		imageTwo = "http://www.roblox.com/asset/?id=11873267381"
+		imageThree = "http://www.roblox.com/asset/?id=11873265575"
+		imageFour = "http://www.roblox.com/asset/?id=11873267381"
+		imageFive = "http://www.roblox.com/asset/?id=11873265575"
+		imageSix = "http://www.roblox.com/asset/?id=11873267381"
+		imageSeven = "http://www.roblox.com/asset/?id=11873265575"
+		imageEight = "http://www.roblox.com/asset/?id=11873267381"
 		Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://4808613510"
@@ -621,14 +669,14 @@ local function TFPA_fake_script() -- c00lkidd2skybox_2.LocalScript
 	local script = Instance.new('LocalScript', c00lkidd2skybox_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		imageOne = "http://www.roblox.com/asset/?id=15138828714"
-		imageTwo = "http://www.roblox.com/asset/?id=15138828714"
-		imageThree = "http://www.roblox.com/asset/?id=15138828714"
-		imageFour = "http://www.roblox.com/asset/?id=15138828714"
-		imageFive = "http://www.roblox.com/asset/?id=15138828714"
-		imageSix = "http://www.roblox.com/asset/?id=15138828714"
-		imageSeven = "http://www.roblox.com/asset/?id=15138828714"
-		imageEight = "http://www.roblox.com/asset/?id=15138828714"
+		imageOne = "http://www.roblox.com/asset/?id=11778792388"
+		imageTwo = "http://www.roblox.com/asset/?id=11778792388"
+		imageThree = "http://www.roblox.com/asset/?id=11778792388"
+		imageFour = "http://www.roblox.com/asset/?id=11778792388"
+		imageFive = "http://www.roblox.com/asset/?id=11778792388"
+		imageSix = "http://www.roblox.com/asset/?id=11778792388"
+		imageSeven = "http://www.roblox.com/asset/?id=11778792388"
+		imageEight = "http://www.roblox.com/asset/?id=11778792388"
 		Spooky = Instance.new("Sound", game.Workspace)
 		Spooky.Name = "Spooky"
 		Spooky.SoundId = "rbxassetid://4808613510"
@@ -709,9 +757,9 @@ local function RIXZEZH_fake_script() -- DiscoFog.LocalScript
 	script.Parent.MouseButton1Down:Connect(function()
 		while true do
 			game.Lighting.Ambient = Color3.new(math.random() , math.random() , math.random())
-			wait(0.1)
+			wait(0.2)
 			game.Lighting.ShadowColor = Color3.new(math.random() , math.random() , math.random())
-			wait(0.1) 
+			wait(0.2) 
 		end
 	
 	end)
@@ -732,7 +780,7 @@ local function DSCTENR_fake_script() -- k00pkidddecalspam.LocalScript
 
 	script.Parent.MouseButton1Down:Connect(function()
 		local msg = Instance.new("Message",workspace)
-		msg.Text = "K00Pkidd Is Destroying!!!"
+		msg.Text = "TEAM K00Pkidd Is Destroying!!!"
 		wait(5.8)
 		msg:Destroy()
 		s = Instance.new("Sky")
@@ -864,9 +912,9 @@ local function RKRS_fake_script() -- c00lkiddmessage.LocalScript
 	local script = Instance.new('LocalScript', c00lkiddmessage)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		message1 = ("Clude:This game is fucking destroyed by me!!")
-		message2 = ("Clude:This game is fucking destroyed by me!")
-		message3 = ("Clude:Loll xddd")
+		message1 = ("c00lkidd:This game is fucking destroyed by me!!")
+		message2 = ("c00lkidd:This game is fucking destroyed by me!")
+		message3 = ("c00lkidd:Loll xddd")
 	
 		waittime = 7
 		--------------------------
@@ -896,7 +944,7 @@ local function OFUSQA_fake_script() -- Hint.LocalScript
 	local script = Instance.new('LocalScript', Hint)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		message1 = ("Team Clude fucked up this game!!")
+		message1 = ("Team c00lkidd 2 fucked up this game!!")
 		message2 = ("MOTHERFUCKERSSS LOLLL")
 		message3 = ("Server is destroyed fuckers")
 	
@@ -1568,7 +1616,7 @@ local function VETA_fake_script() -- RektGui.LocalScript
 					local aaaa = Instance.new("DistortionSoundEffect",sound)
 					aaaa.Level = 0
 					local image = Instance.new("ImageLabel",gui)
-					image.Image = "rbxassetid://10590477450"
+					image.Image = "rbxassetid://421690717"
 					image.Size = UDim2.new(0,0,0,0)
 					image.Position = UDim2.new(0.5,0,0.5,0)
 					image.BackgroundTransparency = 1
@@ -1640,7 +1688,7 @@ local function VETA_fake_script() -- RektGui.LocalScript
 					local aaaa = Instance.new("DistortionSoundEffect",sound)
 					aaaa.Level = 0
 					local image = Instance.new("ImageLabel",gui)
-					image.Image = "rbxassetid://8425069728"
+					image.Image = "rbxassetid://6055869840"
 					image.Size = UDim2.new(0,0,0,0)
 					image.Position = UDim2.new(0.5,0,0.5,0)
 					image.BackgroundTransparency = 1
@@ -1712,7 +1760,7 @@ local function VETA_fake_script() -- RektGui.LocalScript
 					local aaaa = Instance.new("DistortionSoundEffect",sound)
 					aaaa.Level = 0
 					local image = Instance.new("ImageLabel",gui)
-					image.Image = "rbxassetid://11600511955"
+					image.Image = "rbxassetid://6403436054"
 					image.Size = UDim2.new(0,0,0,0)
 					image.Position = UDim2.new(0.5,0,0.5,0)
 					image.BackgroundTransparency = 1
