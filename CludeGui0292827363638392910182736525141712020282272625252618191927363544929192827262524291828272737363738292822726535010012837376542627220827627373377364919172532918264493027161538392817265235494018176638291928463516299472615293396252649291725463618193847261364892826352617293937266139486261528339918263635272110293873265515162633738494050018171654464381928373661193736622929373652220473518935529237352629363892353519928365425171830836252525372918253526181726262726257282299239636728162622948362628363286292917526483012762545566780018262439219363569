@@ -487,61 +487,39 @@ ForceField.BorderSizePixel = 2
 ForceField.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceField.Size = UDim2.new(0, 89, 0, 34)
 ForceField.Font = Enum.Font.GothamBold
-ForceField.Text = "FF"
+ForceField.Text = "Jump Scare"
 ForceField.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceField.TextScaled = true
 ForceField.TextSize = 14.000
 ForceField.TextWrapped = true
 ForceField.MouseButton1Down:connect(function()
-	-- Gui to Lua
-	-- Version: 3.
-	-- Instances:
-
-	local ForceFieldGUI = Instance.new("ScreenGui")
-	local ForceFieldGUI_2 = Instance.new("TextButton")
-	local ForceFieldOFF = Instance.new("TextButton")
-	local ForceFieldON = Instance.new("TextButton")
-
-	--Properties:
-
-	ForceFieldGUI.Name = "ForceFieldGUI"
-	ForceFieldGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-	ForceFieldGUI_2.Name = "ForceFieldGUI"
-	ForceFieldGUI_2.Parent = ForceFieldGUI
-	ForceFieldGUI_2.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
-	ForceFieldGUI_2.BackgroundTransparency = 0.300
-	ForceFieldGUI_2.BorderColor3 = Color3.fromRGB(245, 244, 247)
-	ForceFieldGUI_2.BorderSizePixel = 0
-	ForceFieldGUI_2.Position = UDim2.new(0, 0, 0, 240)
-	ForceFieldGUI_2.Size = UDim2.new(0, 100, 0, 20)
-	ForceFieldGUI_2.Text = "ForceField"
-	ForceFieldGUI_2.TextColor3 = Color3.fromRGB(17, 17, 17)
-	ForceFieldGUI_2.TextTransparency = 0.300
-
-	ForceFieldOFF.Name = "ForceFieldOFF"
-	ForceFieldOFF.Parent = ForceFieldGUI
-	ForceFieldOFF.BackgroundColor3 = Color3.fromRGB(253, 253, 253)
-	ForceFieldOFF.BackgroundTransparency = 0.300
-	ForceFieldOFF.BorderColor3 = Color3.fromRGB(245, 244, 247)
-	ForceFieldOFF.BorderSizePixel = 0
-	ForceFieldOFF.Position = UDim2.new(0, 0, 0, 280)
-	ForceFieldOFF.Size = UDim2.new(0, 100, 0, 20)
-	ForceFieldOFF.Visible = false
-	ForceFieldOFF.Text = "Off"
-	ForceFieldOFF.TextColor3 = Color3.fromRGB(17, 17, 17)
-
-	ForceFieldON.Name = "ForceFieldON"
-	ForceFieldON.Parent = ForceFieldGUI
-	ForceFieldON.BackgroundColor3 = Color3.fromRGB(253, 253, 253)
-	ForceFieldON.BackgroundTransparency = 0.300
-	ForceFieldON.BorderColor3 = Color3.fromRGB(245, 244, 247)
-	ForceFieldON.BorderSizePixel = 0
-	ForceFieldON.Position = UDim2.new(0, 0, 0, 260)
-	ForceFieldON.Size = UDim2.new(0, 100, 0, 20)
-	ForceFieldON.Visible = false
-	ForceFieldON.Text = "On"
-	ForceFieldON.TextColor3 = Color3.fromRGB(17, 17, 17)
+local jumpscareSound = Instance.new("Sound", workspace)
+jumpscareSound.Name = "JumpscareSound"
+jumpscareSound.Volume = 70
+jumpscareSound.Pitch = 0.75
+jumpscareSound.SoundId = "rbxassetid://7006487793"
+ 
+local jumpscareGUI = Instance.new("ScreenGui", nil)
+jumpscareGUI.Name = "Jumpscare"
+local image = Instance.new("ImageLabel", jumpscareGUI)
+image.Name = "JumpscareImage"
+image.BackgroundColor3 = Color3.new(0, 0, 0)
+image.BorderColor3 = Color3.new(255, 255, 255)
+image.BorderSizePixel = 0
+image.Size = UDim2.new(1, 0, 1, 0)
+image.Image = "http://www.roblox.com/asset/?id=15369466284"
+image.Active = true
+ 
+for i, c in pairs(game.Players:GetChildren()) do
+    local jumpscareClone = jumpscareGUI:Clone()
+    jumpscareClone.Parent = c.PlayerGui
+end
+jumpscareSound:Play()
+wait(10)
+jumpscareSound:Destroy()
+for i, c in pairs(game.Players:GetChildren()) do
+    c.PlayerGui.Jumpscare:Destroy()
+end
 
 	-- Scripts:
 
