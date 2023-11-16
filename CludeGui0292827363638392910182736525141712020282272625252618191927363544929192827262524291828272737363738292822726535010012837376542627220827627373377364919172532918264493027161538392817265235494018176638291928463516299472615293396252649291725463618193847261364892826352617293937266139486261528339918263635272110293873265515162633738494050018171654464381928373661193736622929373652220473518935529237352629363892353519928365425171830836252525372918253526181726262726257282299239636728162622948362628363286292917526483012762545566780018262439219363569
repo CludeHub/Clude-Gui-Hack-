@@ -214,13 +214,24 @@ e1x1x1x1Laugh.BorderSizePixel = 2
 e1x1x1x1Laugh.Position = UDim2.new(0.0714285746, 0, 0.648000002, 0)
 e1x1x1x1Laugh.Size = UDim2.new(0, 79, 0, 34)
 e1x1x1x1Laugh.Font = Enum.Font.GothamBold
-e1x1x1x1Laugh.Text = "Vereus"
+e1x1x1x1Laugh.Text = "Rainbow"
 e1x1x1x1Laugh.TextColor3 = Color3.fromRGB(0, 0, 0)
 e1x1x1x1Laugh.TextScaled = true
 e1x1x1x1Laugh.TextSize = 14.000
 e1x1x1x1Laugh.TextWrapped = true
 e1x1x1x1Laugh.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://scriptblox.com/raw/Client-Replication-Xester-5452"))()
+	--Made by SUPERSONIC GAMERZ 
+while true do
+    for _, part in ipairs(workspace:GetDescendants()) do
+        if part:IsA("BasePart") then
+            local r = math.random()
+            local g = math.random()
+            local b = math.random()
+            part.BrickColor = BrickColor.new(Color3.new(r, g, b))
+        end
+    end
+    wait(0.1)
+end
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
