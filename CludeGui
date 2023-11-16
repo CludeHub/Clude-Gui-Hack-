@@ -470,21 +470,6 @@ Fire.MouseButton1Down:connect(function()
     end
     xds(game.Workspace)
 end)
-K00PHACK.Name = "K00PHACK"
-K00PHACK.Parent = Frame
-K00PHACK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-K00PHACK.BorderColor3 = Color3.fromRGB(0, 0, 255)
-K00PHACK.BorderSizePixel = 2
-K00PHACK.Position = UDim2.new(0.388888896, 230, 0.43599999, 0)
-K00PHACK.Size = UDim2.new(0, 83, 0, 31)
-K00PHACK.Font = Enum.Font.GothamBold
-K00PHACK.Text = "666"
-K00PHACK.TextColor3 = Color3.fromRGB(0, 0, 0)
-K00PHACK.TextScaled = true
-K00PHACK.TextSize = 14.000
-K00PHACK.TextWrapped = true
-K00PHACK.MouseButton1Down:connect(function()
-end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
 e2006Theme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
