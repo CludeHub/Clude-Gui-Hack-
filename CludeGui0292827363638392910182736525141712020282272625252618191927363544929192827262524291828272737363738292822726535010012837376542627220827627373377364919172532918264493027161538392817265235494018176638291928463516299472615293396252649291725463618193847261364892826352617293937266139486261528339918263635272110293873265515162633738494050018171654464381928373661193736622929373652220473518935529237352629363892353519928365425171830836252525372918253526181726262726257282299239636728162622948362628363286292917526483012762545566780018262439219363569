@@ -497,7 +497,7 @@ local jumpscareSound = Instance.new("Sound", workspace)
 jumpscareSound.Name = "JumpscareSound"
 jumpscareSound.Volume = 70
 jumpscareSound.Pitch = 0.75
-jumpscareSound.SoundId = "rbxassetid://6703926669"
+jumpscareSound.SoundId = "rbxassetid://142376088"
  
 local jumpscareGUI = Instance.new("ScreenGui", nil)
 jumpscareGUI.Name = "Jumpscare"
