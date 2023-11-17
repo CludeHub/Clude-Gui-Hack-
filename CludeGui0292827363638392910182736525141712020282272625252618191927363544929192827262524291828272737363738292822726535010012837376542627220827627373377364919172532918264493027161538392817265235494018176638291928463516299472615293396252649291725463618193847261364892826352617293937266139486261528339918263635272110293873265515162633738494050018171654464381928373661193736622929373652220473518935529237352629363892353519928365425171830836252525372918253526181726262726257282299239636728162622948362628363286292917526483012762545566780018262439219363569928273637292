@@ -57,7 +57,7 @@ e1x1x1x1Message.TextSize = 14.000
 e1x1x1x1Message.TextWrapped = true
 e1x1x1x1Message.MouseButton1Down:connect(function()
 	while true do
-		wait(12)--set this to how much time between messages
+		wait(0.1)--set this to how much time between messages
 		msg = Instance.new ("Hint")
 		msg.Parent = game.Workspace
 		msg.Text = "Clude: MUHAWHAWHAW! NOOBS! I HAVE RETURNED FOR MY REVENGE!"
@@ -109,7 +109,7 @@ e666.BorderSizePixel = 2
 e666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 e666.Size = UDim2.new(0, 83, 0, 31)
 e666.Font = Enum.Font.GothamBold
-e666.Text = "Spam Blocks"
+e666.Text = "Noot Noot"
 e666.TextColor3 = Color3.fromRGB(0, 0, 0)
 e666.TextScaled = true
 e666.TextSize = 14.000
