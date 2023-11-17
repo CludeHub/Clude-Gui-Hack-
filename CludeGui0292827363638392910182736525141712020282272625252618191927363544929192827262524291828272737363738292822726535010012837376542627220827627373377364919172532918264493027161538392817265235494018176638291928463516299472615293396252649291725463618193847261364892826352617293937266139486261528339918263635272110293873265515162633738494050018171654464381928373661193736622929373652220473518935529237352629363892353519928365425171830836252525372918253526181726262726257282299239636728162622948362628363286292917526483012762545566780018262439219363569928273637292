@@ -115,18 +115,6 @@ e666.TextScaled = true
 e666.TextSize = 14.000
 e666.TextWrapped = true
 e666.MouseButton1Down:connect(function()
-wait(0.1)
-while true do
-	local Number1 = math.random()
-	local Number2 = math.random()
-	local Number3 = math.random()
-	local Part = Instance.new("Part")
-	Part.Parent = game.Workspace
-	Part.Position = game.Workspace:FindFirstChild(Name).HumanoidRootPart.Position --Use Torso on R6 games--
-	Part.Size = Vector3.new(1, 1, 1)
-	Part.Color = Color3.new(Number1, Number2, Number3)
-	wait(0.01)
-end
 end)
 Decal.Name = "Decal"
 Decal.Parent = Frame
