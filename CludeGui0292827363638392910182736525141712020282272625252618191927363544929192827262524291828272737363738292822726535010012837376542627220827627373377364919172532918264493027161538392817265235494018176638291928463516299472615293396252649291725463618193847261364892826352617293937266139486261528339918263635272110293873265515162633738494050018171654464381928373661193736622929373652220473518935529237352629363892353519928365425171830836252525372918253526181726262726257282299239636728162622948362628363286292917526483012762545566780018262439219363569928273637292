@@ -671,11 +671,7 @@ Sky.TextColor3 = Color3.fromRGB(0, 0, 0)
 Sky.TextScaled = true
 Sky.TextSize = 14.000
 Sky.TextWrapped = true
-	-- Scripts:
-local function UJYA_fake_script() -- Sky.LocalScript 
-	local script = Instance.new('LocalScript', Sky)
-
-	script.Parent.MouseButton1Down:Connect(function()
+Sky.MouseButton1Down:connect(function()
         local msg = Instance.new("Message",workspace)
 		msg.Text = "Clude Is Destroying The Game!!!"
 		wait(5.8)
