@@ -547,10 +547,6 @@ K00p.TextScaled = true
 K00p.TextSize = 14.000
 K00p.TextWrapped = true
 K00p.MouseButton1Down:connect(function()
-local function UJYA_fake_script() -- K00p.LocalScript 
-	local script = Instance.new('LocalScript', K00p)
-
-	script.Parent.MouseButton1Down:Connect(function()
 local msg = Instance.new("Message",workspace)
 		msg.Text = "Clude Is Destroying The Game!!!"
 		wait(5.8)
