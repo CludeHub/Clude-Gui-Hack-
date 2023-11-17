@@ -8,7 +8,6 @@ local Name = Instance.new("TextLabel")
 local e1x1x1x1Message = Instance.new("TextButton")
 local Decal = Instance.new("TextButton")
 local Fire = Instance.new("TextButton")
-local K00p = Instance.new("TextButton")
 local e1x1x1x1Music = Instance.new("TextButton")
 local e1x1x1x1Laugh = Instance.new("TextButton")
 local DayToNight = Instance.new("TextButton")
@@ -253,80 +252,6 @@ DayToNight.MouseButton1Down:connect(function()
 		game.Lighting.TimeOfDay = "18:00:00"
 		wait(0.5)
 	end
-end)
-e666.Name = "e666"
-e666.Parent = Frame
-e666.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-e666.BorderColor3 = Color3.fromRGB(0, 0, 255)
-e666.BorderSizePixel = 2
-e666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
-e666.Size = UDim2.new(0, 83, 0, 31)
-e666.Font = Enum.Font.GothamBold
-e666.Text = "SkyBox"
-e666.TextColor3 = Color3.fromRGB(0, 0, 0)
-e666.TextScaled = true
-e666.TextSize = 14.000
-e666.TextWrapped = true
-e666.MouseButton1Down:connect(function()
-local msg = Instance.new("Message",workspace)
-		msg.Text = "Clude Is Destroying The Game!!!"
-		wait(5.8)
-		msg:Destroy()
-		s = Instance.new("Sky")
-		s.Name = "SKY"
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=15138828714"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=15138828714"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=15138828714"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=15138828714"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=15138828714"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=15138828714"
-		s.Parent = game.Lighting
-		Spooky = Instance.new("Sound", game.Workspace)
-		Spooky.Name = "Spooky"
-		Spooky.SoundId = "rbxassetid://152745539"
-		Spooky.Volume = 100
-		Spooky.Looped = true
-		Spooky:Play()
-		local ID = --id here
-		function spamDecal(v)
-			if v:IsA("Part") then
-				for i=0, 5 do
-					D = Instance.new("Decal")
-					D.Name = "K00PHACK"
-					D.Face = i
-					D.Parent = v
-					D.Texture = ("http://www.roblox.com/asset/?id="..Id)
-				end
-			else
-				if v:IsA("Model") then
-					for a,b in pairs(v:GetChildren()) do
-						spamDecal(b)
-					end
-				end
-			end
-		end
-		function decalspam(id) --use this function, not the one on top
-			Id = id
-			for i,v in pairs(game.Workspace:GetChildren()) do
-				if v:IsA("Part") then
-					for i=0, 5 do
-						D = Instance.new("Decal")
-						D.Name = "MYDECALHUE"
-						D.Face = i
-						D.Parent = v
-						D.Texture = ("http://www.roblox.com/asset/?id="..id)
-					end
-				else
-					if v:IsA("Model") then
-						for a,b in pairs(v:GetChildren()) do
-							spamDecal(b)
-						end
-					end
-				end
-			end
-		end
-	
-		decalspam(ID)
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
