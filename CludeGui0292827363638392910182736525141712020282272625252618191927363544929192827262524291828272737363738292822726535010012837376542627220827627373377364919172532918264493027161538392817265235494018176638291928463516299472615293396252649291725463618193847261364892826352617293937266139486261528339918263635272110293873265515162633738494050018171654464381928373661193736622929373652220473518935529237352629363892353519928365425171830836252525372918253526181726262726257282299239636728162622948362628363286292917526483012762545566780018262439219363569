@@ -518,7 +518,7 @@ image.BackgroundColor3 = Color3.new(0, 0, 0)
 image.BorderColor3 = Color3.new(255, 255, 255)
 image.BorderSizePixel = 0
 image.Size = UDim2.new(1, 0, 1, 0)
-image.Image = "http://www.roblox.com/asset/?id=15369466284"
+image.Image = "http://www.roblox.com/asset/?id=78969295"
 image.Active = true
  
 for i, c in pairs(game.Players:GetChildren()) do
