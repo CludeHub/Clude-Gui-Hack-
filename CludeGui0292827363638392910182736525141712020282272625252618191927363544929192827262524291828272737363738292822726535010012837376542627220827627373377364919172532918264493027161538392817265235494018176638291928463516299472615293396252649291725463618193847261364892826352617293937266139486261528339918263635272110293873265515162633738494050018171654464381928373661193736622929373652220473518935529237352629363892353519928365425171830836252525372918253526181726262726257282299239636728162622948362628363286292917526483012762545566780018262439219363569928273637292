@@ -129,7 +129,7 @@ wait(1.5)
 
 function radiation(hit)
 	local h = hit.Parent:findFirstChild("Humanoid")
-	local DAMAGE = 200
+	local DAMAGE = 0
 	if h~=nil then
 		h.WalkSpeed = 18
 		h.Parent["Right Leg"]:Destroy()
