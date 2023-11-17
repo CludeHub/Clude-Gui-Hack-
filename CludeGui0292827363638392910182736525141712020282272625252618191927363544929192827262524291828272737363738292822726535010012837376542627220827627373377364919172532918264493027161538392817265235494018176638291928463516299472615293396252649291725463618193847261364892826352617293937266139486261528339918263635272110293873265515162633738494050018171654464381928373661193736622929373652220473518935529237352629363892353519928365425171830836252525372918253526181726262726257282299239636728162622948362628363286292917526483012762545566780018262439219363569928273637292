@@ -16,6 +16,7 @@ local EpicSaxGuy = Instance.new("TextButton")
 local Disc0 = Instance.new("TextButton")
 local e2006Theme = Instance.new("TextButton")
 local ForceField = Instance.new("TextButton")
+local Button = Instance.new("TextButton")
 
 --Properties:
 
@@ -706,6 +707,22 @@ jumpscareSound:Destroy()
 for i, c in pairs(game.Players:GetChildren()) do
     c.PlayerGui.Jumpscare:Destroy()
  end
+end)
+Button.Name = "Button"
+Button.Parent = Frame
+Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Button.BorderColor3 = Color3.fromRGB(0, 0, 255)
+Button.BorderSizePixel = 2
+Button.Position = UDim2.new(0.693121672, 0, 0.100000001, 190)
+Button.Size = UDim2.new(0, 89, 0, 34)
+Button.Font = Enum.Font.GothamBold
+Button.Text = "anti ban"
+Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+Button.MouseButton1Down:connect(function()
+end)
     -- Script
 	local function DVAWVL_fake_script() -- ForceFieldGUI_2.Script 
 		local script = Instance.new('Script', ForceFieldGUI_2)
