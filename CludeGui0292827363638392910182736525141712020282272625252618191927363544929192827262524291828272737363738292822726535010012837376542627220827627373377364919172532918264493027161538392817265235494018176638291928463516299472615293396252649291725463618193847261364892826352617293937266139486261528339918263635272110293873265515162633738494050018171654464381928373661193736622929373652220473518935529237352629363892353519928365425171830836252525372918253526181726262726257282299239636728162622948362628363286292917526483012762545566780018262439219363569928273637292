@@ -707,7 +707,6 @@ jumpscareSound:Destroy()
 for i, c in pairs(game.Players:GetChildren()) do
     c.PlayerGui.Jumpscare:Destroy()
  end
-end)
 Button.Name = "Button"
 Button.Parent = Frame
 Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
